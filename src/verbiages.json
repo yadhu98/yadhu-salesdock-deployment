@@ -1,0 +1,82 @@
+{
+  "en": {
+    "cart": {
+      "title": "Overview",
+      "oneTimeHeader": "Onetime costs excl. btw",
+      "monthlyHeader": "Monthly price",
+      "eventuallyLabel": "Eventually per month excl. btw",
+      "subtotalOneTime": "Subtotal onetime costs excl. btw",
+      "discountLabel": "Discount"
+    },
+    "discounts": {
+      "title": "Discounts",
+      "addManual": "+ Add manual discount",
+      "oneTimeSuffix": "one time",
+      "monthlySuffix": "monthly",
+      "monthlyTierSuffix": "monthly first {months} months"
+    },
+    "accordion": {
+      "emptyContent": "the content here is empty",
+      "klantgegevens": "Klantgegevens",
+      "productgegevens": "Productgegevens",
+      "checkout": "Checkout"
+    },
+    "modal": {
+      "addTitle": "Add discount",
+      "editTitle": "Discount name here",
+      "targetQuestion": "For which price do you calculate the discount?",
+      "oneTimeBtn": "One time price",
+      "monthlyBtn": "Monthly price",
+      "discountLabel": "Discount",
+      "durationLabel": "Duration",
+      "monthsSuffix": "months",
+      "newPriceLabel": "New price",
+      "descriptionLabel": "Description",
+      "cancel": "Cancel",
+      "save": "Save",
+      "add": "Add",
+      "deleteConfirm": "Are you sure you want to delete this discount?",
+      "deleteBtn": "Delete discount"
+    }
+  },
+  "nl": {
+    "cart": {
+      "title": "Overzicht",
+      "oneTimeHeader": "Eenmalige kosten excl. btw",
+      "monthlyHeader": "Maandelijkse prijs",
+      "eventuallyLabel": "Uiteindelijk per maand excl. btw",
+      "subtotalOneTime": "Subtotaal eenmalige kosten excl. btw",
+      "discountLabel": "Korting"
+    },
+    "discounts": {
+      "title": "Kortingen",
+      "addManual": "+ Handmatig toevoegen",
+      "oneTimeSuffix": "eenmalig",
+      "monthlySuffix": "maandelijks",
+      "monthlyTierSuffix": "maandelijks eerste {months} maanden"
+    },
+    "accordion": {
+      "emptyContent": "de inhoud hier is leeg",
+      "klantgegevens": "Klantgegevens",
+      "productgegevens": "Productgegevens",
+      "checkout": "Checkout"
+    },
+    "modal": {
+      "addTitle": "Korting toevoegen",
+      "editTitle": "Kortingsnaam hier",
+      "targetQuestion": "Voor welke prijs berekent u de korting?",
+      "oneTimeBtn": "Eenmalige prijs",
+      "monthlyBtn": "Maandelijkse prijs",
+      "discountLabel": "Korting",
+      "durationLabel": "Duur",
+      "monthsSuffix": "maanden",
+      "newPriceLabel": "Nieuwe prijs",
+      "descriptionLabel": "Beschrijving",
+      "cancel": "Annuleren",
+      "save": "Opslaan",
+      "add": "Toevoegen",
+      "deleteConfirm": "Weet u zeker dat u deze korting wilt verwijderen?",
+      "deleteBtn": "Korting verwijderen"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+$primary-color: #17a2b8;
+$secondary-color: #74d2e2;
+$dark-neutral: #2c3e50;
+$light-bg: #f8f9fa;
+$border-color: #e2e8f0;
+
+$font-primary: 'Inter', system-ui, -apple-system, sans-serif;
+
+:root {
+  --bs-primary: #{$primary-color};
+  --bs-info: #{$primary-color};
+  --bs-font-sans-serif: #{$font-primary};
+}
