@@ -3,6 +3,8 @@ import type { ReactNode } from 'react';
 export interface DiscountItem {
   id: string;
   name: string;
+  description?: string;
+  newPrice?: number;  
   type: 'PERCENTAGE' | 'FIXED';
   target: 'ONE_TIME' | 'MONTHLY';
   value: number;

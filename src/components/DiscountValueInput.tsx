@@ -16,23 +16,23 @@ export const DiscountValueInput: React.FC<DiscountValueInputProps> = ({
   onTypeChange
 }) => (
   <div className="form-group d-flex flex-column gap-1">
-    <label className="small text-muted fw-bold">{label}</label>
+    <label className="small text-muted fw-normal">{label}</label>
     <div className="input-group">
-      <input 
-        type="number" 
-        className="form-control rounded-0" 
-        value={value || ''}
-        onChange={(e) => onValueChange(Number(e.target.value))}
-      />
       <select 
-        className="form-select rounded-0 flex-grow-0" 
-        style={{ width: '65px' }}
+        className="form-select flex-grow-0 border-end-0" 
+        style={{ width: '75px', backgroundColor: '#f8f9fa', cursor: 'pointer' }}
         value={type}
         onChange={(e) => onTypeChange(e.target.value as any)}
       >
-        <option value="FIXED">€</option>
         <option value="PERCENTAGE">%</option>
+        <option value="FIXED">€</option>
       </select>
+      <input 
+        type="number" 
+        className="form-control" 
+        value={value || ''}
+        onChange={(e) => onValueChange(Number(e.target.value))}
+      />
     </div>
   </div>
 );

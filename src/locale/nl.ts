@@ -25,18 +25,19 @@ export const nl: typeof en = {
   },
   modal: {
     addTitle: "Korting toevoegen",
+    editTitle: "Kortingsnaam hier",
     cancel: "Annuleren",
     save: "Opslaan",
     add: "Toevoegen",
-    editTitle: "Korting wijzigen",
-    targetQuestion: "Is dit een eenmalige of maandelijkse korting?",
+    targetQuestion: "Voor welke prijs berekent u de korting?",
     targetLabel: "Voor welke prijs berekent u de korting?",
     oneTimePrice: "Eenmalige prijs",
     monthlyPrice: "Maandelijkse prijs",
     descriptionLabel: "Omschrijving",
-    discountLabel: "Kortingswaarde",
+    discountLabel: "Korting",
     durationLabel: "Looptijd",
-    monthsSuffix: "maanden"
+    monthsSuffix: "maanden",
+    newPriceLabel: "Nieuwe prijs"
   },
   navigation: {
     previous: "Vorige",

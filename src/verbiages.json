@@ -22,7 +22,7 @@
       "checkout": "Checkout"
     },
     "modal": {
-      "addTitle": "Add discount",
+      "addTitle": "Add manual discount",
       "editTitle": "Discount name here",
       "targetQuestion": "For which price do you calculate the discount?",
       "oneTimeBtn": "One time price",
